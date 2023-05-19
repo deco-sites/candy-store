@@ -4,6 +4,5 @@ import liveManifest from "$live/live.gen.ts";
 import liveStdManifest from "deco-sites/std/live.gen.ts";
 
 await dev(import.meta.url, "./main.ts", {
-  siteId: 794,
-  imports: [liveManifest, liveStdManifest]
+  imports: [liveManifest, liveStdManifest],
 });

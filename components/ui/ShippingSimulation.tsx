@@ -3,13 +3,13 @@ import Input from "$store/components/ui/Input.tsx";
 import Text from "$store/components/ui/Text.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
 
-import { useCart } from "deco-sites/std/commerce/vtex/hooks/useCart.ts";
+import { useCart } from "deco-sites/std/packs/vtex/hooks/useCart.ts";
 
 import type {
   SimulationOrderForm,
   SKU,
   Sla,
-} from "deco-sites/std/commerce/vtex/types.ts";
+} from "deco-sites/std/packs/vtex/types.ts";
 
 import { useSignal } from "@preact/signals";
 import { useCallback } from "preact/hooks";
